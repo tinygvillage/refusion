@@ -1,0 +1,34 @@
+
+.wrapper {
+  border: 15px solid pink;
+  padding: 10px;
+}
+
+p {
+  width: 33%;
+  background: lime;
+  padding: 10px;
+  margin: 10px;
+  float:left;
+  text-align: center;
+}
+
+article {
+  background: lime;
+  padding: 10px;
+  margin: 10px;
+  float:left;
+  text-align: center;
+}
+
+/*play with the float settings to see how they propogate*/
+
+#clear-fix {
+  clear: both;
+  overflow: auto;
+}
+
+#additional-content {
+  background: gold;
+  float: inherit;
+}
