@@ -21,6 +21,13 @@ article {
   text-align: center;
 }
 
+span {
+  color: aqua;
+}
+
+nav {
+  color: teal;
+}
 /*play with the float settings to see how they propogate*/
 
 #clear-fix {
